@@ -1,0 +1,76 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Apr 12 13:55:54 2023
+[*]
+[dumpfile] "C:\Users\13355\OneDrive\A_My_Codes\wave.vcd"
+[dumpfile_mtime] "Wed Apr 12 13:54:37 2023"
+[dumpfile_size] 61493
+[savefile] "C:\Users\13355\OneDrive\A_My_Codes\liuliui.gtkw"
+[timestart] 25600
+[size] 1916 2041
+[pos] -1 -1
+*-14.000000 70000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_module.
+[sst_width] 273
+[signals_width] 345
+[sst_expanded] 1
+[sst_vpaned_height] 648
+@28
+test_module.u_axi_stream_insert_header.clk
+test_module.u_axi_stream_insert_header.rst_n
+@800200
+-1
+@28
+test_module.u_axi_stream_insert_header.valid_in
+@22
+test_module.u_axi_stream_insert_header.data_in[31:0]
+@28
+test_module.u_axi_stream_insert_header.keep_in[3:0]
+test_module.u_axi_stream_insert_header.last_in
+test_module.u_axi_stream_insert_header.ready_in
+@1000200
+-1
+@800200
+-2
+@28
+test_module.u_axi_stream_insert_header.valid_out
+@22
+test_module.u_axi_stream_insert_header.data_out[31:0]
+@28
+test_module.u_axi_stream_insert_header.keep_out[3:0]
+test_module.u_axi_stream_insert_header.last_out
+test_module.u_axi_stream_insert_header.ready_out
+@1000200
+-2
+@800200
+-3
+@28
+test_module.u_axi_stream_insert_header.valid_insert
+@22
+test_module.u_axi_stream_insert_header.header_insert[31:0]
+@28
+test_module.u_axi_stream_insert_header.keep_insert[3:0]
+test_module.u_axi_stream_insert_header.ready_insert
+@1000200
+-3
+@22
+test_module.u_axi_stream_insert_header.data_in_tmp[63:0]
+test_module.u_axi_stream_insert_header.data_out_tmp[31:0]
+@28
+test_module.u_axi_stream_insert_header.head_valid_num[2:0]
+@22
+test_module.u_axi_stream_insert_header.header_tmp[31:0]
+@28
+test_module.u_axi_stream_insert_header.input_over_flag
+@22
+test_module.u_axi_stream_insert_header.keep_in_tmp[3:0]
+test_module.u_axi_stream_insert_header.keep_out_tmp[3:0]
+@28
+test_module.u_axi_stream_insert_header.last_out_tmp
+test_module.u_axi_stream_insert_header.output_over_flag
+test_module.u_axi_stream_insert_header.ready_insert_tmp
+test_module.u_axi_stream_insert_header.second_cycle
+test_module.u_axi_stream_insert_header.valid_out_tmp
+test_module.valid_insert_tmp
+[pattern_trace] 1
+[pattern_trace] 0

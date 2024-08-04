@@ -1,0 +1,17 @@
+TL := ../rtl/top.v
+TB  := ../tb/full_adder_tb.v
+SEED ?= $(shell date +%s)
+
+all: compile sim
+
+compile:
+	vcs -sverilog -debug_all -timescale=1ns/1ps $(RTL) $(TB) -l com.log
+
+sim:
+	./simv +ntb_random_seed=$(SEED) -l sim.log
+
+run:
+	dve -vpd vcdplus.vpd &
+
+clean:
+	rm -rf *log csrc simv* *.key *vpd DVEfiles coverage *.vdb

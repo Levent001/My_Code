@@ -1,0 +1,226 @@
+$date
+	Sat Nov 19 23:28:51 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module fifo2_tb $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 8 # data_out [7:0] $end
+$var reg 1 $ clk $end
+$var reg 8 % data_in [7:0] $end
+$var reg 1 & rd_en $end
+$var reg 1 ' rst_n $end
+$var reg 1 ( wr_en $end
+$scope module u_fifo2 $end
+$var wire 1 $ clk $end
+$var wire 1 & read_enable $end
+$var wire 1 ' rst_n $end
+$var wire 8 ) write_data [7:0] $end
+$var wire 1 ( write_enable $end
+$var wire 4 * w_addr_a [3:0] $end
+$var wire 4 + r_addr_a [3:0] $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var reg 5 , r_addr_e [4:0] $end
+$var reg 8 - read_data [7:0] $end
+$var reg 5 . w_addr_e [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx .
+bx -
+bx ,
+bx +
+bx *
+b0 )
+0(
+1'
+0&
+b0 %
+0$
+bx #
+x"
+x!
+$end
+#100
+0!
+1"
+b0 +
+b0 *
+b0 ,
+b0 .
+1(
+0'
+#600
+1'
+#2000
+0"
+b1 *
+b1 .
+1$
+#4000
+0$
+b1 %
+b1 )
+#6000
+b10 *
+b10 .
+1$
+#8000
+0$
+b10 %
+b10 )
+#10000
+b11 *
+b11 .
+1$
+#12000
+0$
+b11 %
+b11 )
+#14000
+b100 *
+b100 .
+1$
+#16000
+0$
+b100 %
+b100 )
+#18000
+b101 *
+b101 .
+1$
+#20000
+0$
+b101 %
+b101 )
+#22000
+b110 *
+b110 .
+1$
+#24000
+0$
+b110 %
+b110 )
+#26000
+b111 *
+b111 .
+1$
+#28000
+0$
+b111 %
+b111 )
+#30000
+b1000 *
+b1000 .
+1$
+#32000
+0$
+b1000 %
+b1000 )
+#34000
+b1001 *
+b1001 .
+1$
+#36000
+0$
+b1001 %
+b1001 )
+#38000
+b1010 *
+b1010 .
+1$
+#40000
+0$
+b1010 %
+b1010 )
+#42000
+b1011 *
+b1011 .
+1$
+#44000
+0$
+b1011 %
+b1011 )
+#46000
+b1100 *
+b1100 .
+1$
+#48000
+0$
+b1100 %
+b1100 )
+#50000
+b1101 *
+b1101 .
+1$
+#52000
+0$
+b1101 %
+b1101 )
+#54000
+b1110 *
+b1110 .
+1$
+#56000
+0$
+b1110 %
+b1110 )
+#58000
+b1111 *
+b1111 .
+1$
+#60000
+0$
+b1111 %
+b1111 )
+#62000
+1!
+b0 *
+b10000 .
+1$
+#64000
+0$
+#65000
+0(
+1&
+#66000
+0!
+b1 +
+b1 ,
+b0 #
+b0 -
+1$
+#68000
+0$
+#70000
+b10 +
+b10 ,
+b1 #
+b1 -
+1$
+#72000
+0$
+#74000
+b11 +
+b11 ,
+b10 #
+b10 -
+1$
+#76000
+0$
+#78000
+b100 +
+b100 ,
+b11 #
+b11 -
+1$
+#80000
+0$
